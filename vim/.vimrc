@@ -26,12 +26,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
-"Plugin 'kristijanhusak/vim-hybrid-material'
-"Plugin 'NLKNguyen/papercolor-theme'
 
-" Libs
-  " For FuzzyFinder:
-  " Bundle 'L9'
 " Interface
   Bundle 'git://github.com/kien/ctrlp.vim.git'
   " Solarized Colorscheme
@@ -78,16 +73,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
   " You need to install webapi-vim for gist-vim
   " Also you need to do `git config --global github.user <username>`
   Bundle 'mattn/webapi-vim'
-  " Lua
-  " Bundle 'git://github.com/vim-scripts/lua.vim.git'
-  " Bundle 'git://github.com/rkowal/Lua-Omni-Vim-Completion.git'
-  " Bundle 'git://github.com/xolox/vim-lua-ftplugin.git'
-  " Bundle 'git://github.com/xolox/vim-lua-inspect.git'
   " HTML/HAML
   " HTML5 omnicomplete and syntax
   Bundle 'git://github.com/othree/html5.vim.git'
   Bundle 'git://github.com/hokaccha/vim-html5validator.git'
-  " Bundle 'git://github.com/tyru/operator-html-escape.vim.git'
+  Bundle 'git://github.com/tyru/operator-html-escape.vim.git'
   " Runtime files for Haml and Sass
   Bundle 'git://github.com/tpope/vim-haml.git'
   Bundle 'git://github.com/gregsexton/MatchTag.git'
@@ -112,17 +102,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
   " PHP
   Bundle 'git://github.com/vim-scripts/php.vim--Garvin.git'
   Bundle 'git://github.com/2072/PHP-Indenting-for-VIm.git'
-  " Python/Django
-  "Bundle 'git://github.com/fs111/pydoc.vim.git'
   " Perl
   Bundle 'git://github.com/petdance/vim-perl.git'
-  " Ruby/Rails
-  " Editing and compiling Ruby
-  " Bundle 'git://github.com/vim-ruby/vim-ruby.git'
-  " Rails support
-  " Bundle 'git://github.com/tpope/vim-rails.git'
-  " Wisely add "end" in ruby, endfunction/endif/more
-  " Bundle 'git://github.com/tpope/vim-endwise.git'
   " Jade
   Bundle 'git://github.com/digitaltoad/vim-jade.git'
   " Stylus
@@ -133,21 +114,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
 
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
+" Visually setting VIM
 syntax on
-"set background=dark
-"colorscheme hybrid_material
+set background=dark
+colorscheme stellarized
 set number
 set listchars=eol:¬,tab:>>,trail:~,extends:>,precedes:<,space:·
 set list
